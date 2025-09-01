@@ -32,18 +32,6 @@ Query Input → Planning → Parallel Searching → Report Writing → Email Del
 - **Email Integration** - Automated HTML email delivery via SendGrid
 - **OpenAI Tracing** - Built-in monitoring and debugging capabilities
 
-## Project Structure
-
-```
-ai-deep-research-agent/
-├── main.py      # Gradio web interface
-├── research_manager.py   # Central workflow orchestrator
-├── planner_agent.py     # Search strategy planning
-├── search_agent.py      # Web search execution
-├── writer_agent.py      # Report synthesis
-└── email_agent.py       # Email formatting & delivery
-```
-
 ## Cost Considerations
 
 - OpenAI WebSearchTool: ~$0.025 per search call
